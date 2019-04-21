@@ -1,1 +1,2 @@
 1) ansible --list-hosts all
+2) ansible gns3-ios -m raw -a "show version" -u cisco -k - https://docs.ansible.com/ansible/latest/modules/raw_module.html
