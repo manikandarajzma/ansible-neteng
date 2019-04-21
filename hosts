@@ -1,7 +1,8 @@
-[gns3-ios]
-
+[routers]
 R1
 R2
+
+[switches]
 sw1
 sw2
 
