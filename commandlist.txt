@@ -1,3 +1,4 @@
 1) ansible --list-hosts all
 2) ansible gns3-ios -m raw -a "show version" -u cisco -k - https://docs.ansible.com/ansible/latest/modules/raw_module.html
 3) ansible all -m raw -a "show ip int brief" -u cisco -k
+4) ansible all -m raw -a "show run | i user" -u cisco -k | grep 'SUCCESS\|username"
